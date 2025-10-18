@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -193,8 +193,8 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
         0.15,
+        0.2,
         0.25,
         0.5,
         0.6
@@ -235,7 +235,7 @@
           "drill": 0.2
         },
         {
-          "diameter": 0.4,
+          "diameter": 0.45,
           "drill": 0.3
         },
         {
@@ -493,24 +493,23 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.254,
+        "clearance": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1524,
+        "diff_pair_width": 0.4,
         "line_style": 0,
-        "microvia_diameter": 0.6858,
-        "microvia_drill": 0.3302,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.4,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.6858,
-        "via_drill": 0.3302,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.1575,
         "name": "Diff-90",

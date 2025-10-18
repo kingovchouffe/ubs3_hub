@@ -4224,6 +4224,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V2"
 			(power)
 			(pin_numbers
@@ -5022,6 +5129,12 @@
 		(uuid "214ee48b-901f-446c-a0a7-a50d3b5ed2e3")
 	)
 	(junction
+		(at 266.7 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21959426-733e-4fba-9c37-82e1e6cbd6c4")
+	)
+	(junction
 		(at 120.65 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5068,6 +5181,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49d24faa-5d3c-4b97-83ab-4bf0e6cb2de5")
+	)
+	(junction
+		(at 269.24 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "516730ca-6f50-4e5a-8bdb-933401f98f40")
 	)
 	(junction
 		(at 53.34 251.46)
@@ -5292,6 +5411,12 @@
 		(uuid "f006a311-fa07-4da1-9f59-3c97c2f599a3")
 	)
 	(junction
+		(at 271.78 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1c2db8b-57d1-4554-95b3-6221492b72c7")
+	)
+	(junction
 		(at 154.94 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5457,6 +5582,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 20.32) (xy 233.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa6bc4d-06ca-49c7-b2bc-00e5b4484462")
+	)
+	(wire
+		(pts
 			(xy 160.02 115.57) (xy 165.1 115.57)
 		)
 		(stroke
@@ -5494,16 +5629,6 @@
 			(type default)
 		)
 		(uuid "0dd72065-2a41-4741-8e2e-455170062fe0")
-	)
-	(wire
-		(pts
-			(xy 233.68 25.4) (xy 233.68 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e104021-355f-4118-b357-3f9c034e6a14")
 	)
 	(wire
 		(pts
@@ -5564,16 +5689,6 @@
 			(type default)
 		)
 		(uuid "1150fc96-a630-4eec-bd35-c2f38fd47742")
-	)
-	(wire
-		(pts
-			(xy 232.41 55.88) (xy 232.41 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125dab8c-f88b-4b5f-b3ca-1e891a778d30")
 	)
 	(wire
 		(pts
@@ -5887,6 +6002,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 53.34) (xy 232.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300d5e37-3265-4b07-96a7-2ad46ae87fee")
+	)
+	(wire
+		(pts
 			(xy 176.53 194.31) (xy 189.23 194.31)
 		)
 		(stroke
@@ -6064,6 +6189,16 @@
 			(type default)
 		)
 		(uuid "46052005-0a33-4436-8bc9-19f48a046ee0")
+	)
+	(wire
+		(pts
+			(xy 276.86 257.81) (xy 276.86 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b6582c-31fb-40d7-868f-58c48e76c997")
 	)
 	(wire
 		(pts
@@ -6347,6 +6482,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 260.35) (xy 266.7 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63357447-bc74-417e-a404-b84a9f7cff21")
+	)
+	(wire
+		(pts
 			(xy 341.63 154.94) (xy 341.63 157.48)
 		)
 		(stroke
@@ -6387,6 +6532,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 52.07) (xy 330.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ae1ec1-e039-4d15-87a2-552ea4aaceca")
+	)
+	(wire
+		(pts
 			(xy 73.66 41.91) (xy 76.2 41.91)
 		)
 		(stroke
@@ -6414,6 +6569,16 @@
 			(type default)
 		)
 		(uuid "65ff4907-7d48-47c1-9268-b56bd2fa8255")
+	)
+	(wire
+		(pts
+			(xy 266.7 260.35) (xy 269.24 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b3dcc7-d920-4f9b-8223-64cfd1ce6f7d")
 	)
 	(wire
 		(pts
@@ -6564,6 +6729,16 @@
 			(type default)
 		)
 		(uuid "72187b20-2db5-49f5-ad94-a6e9043ef037")
+	)
+	(wire
+		(pts
+			(xy 271.78 260.35) (xy 269.24 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7278bbe1-ca37-4408-928e-a0392dc61e77")
 	)
 	(wire
 		(pts
@@ -6817,6 +6992,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 257.81) (xy 261.62 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8300f1fc-b62c-43e0-8132-0be9ea800bd5")
+	)
+	(wire
+		(pts
 			(xy 396.24 35.56) (xy 398.78 35.56)
 		)
 		(stroke
@@ -6884,16 +7069,6 @@
 			(type default)
 		)
 		(uuid "8701fdfd-9bfe-49b2-b03e-08c177578c84")
-	)
-	(wire
-		(pts
-			(xy 330.2 57.15) (xy 330.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e7f201-e5e7-4e44-ba2d-417e13a74724")
 	)
 	(wire
 		(pts
@@ -7807,6 +7982,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 21.59) (xy 328.93 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7f0a26-e928-4776-a560-634e60f87161")
+	)
+	(wire
+		(pts
 			(xy 35.56 246.38) (xy 48.26 246.38)
 		)
 		(stroke
@@ -8007,6 +8192,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 257.81) (xy 266.7 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c578a7-313a-4dfd-9758-ccb650f9e8ff")
+	)
+	(wire
+		(pts
 			(xy 325.12 130.81) (xy 317.5 130.81)
 		)
 		(stroke
@@ -8034,6 +8229,16 @@
 			(type default)
 		)
 		(uuid "e185477f-2a5d-4c47-97cb-f90add7bc552")
+	)
+	(wire
+		(pts
+			(xy 276.86 260.35) (xy 271.78 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e193ee84-4dc3-4973-8246-aa89104b3dee")
 	)
 	(wire
 		(pts
@@ -8094,6 +8299,16 @@
 			(type default)
 		)
 		(uuid "e6427d17-c363-4543-bd27-31058463fc23")
+	)
+	(wire
+		(pts
+			(xy 271.78 257.81) (xy 271.78 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebfaf173-1e26-4406-a5ed-048b1a1c4a1f")
 	)
 	(wire
 		(pts
@@ -8334,16 +8549,6 @@
 			(type default)
 		)
 		(uuid "fb226a1a-1549-43d2-9840-d6b83fcd3df7")
-	)
-	(wire
-		(pts
-			(xy 328.93 26.67) (xy 328.93 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5f5a7a-37d8-4571-81d5-7eaec64483dd")
 	)
 	(wire
 		(pts
@@ -10306,75 +10511,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 232.41 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c0dc10c-b54c-4ddf-841f-9492d75ff993")
-		(property "Reference" "C18"
-			(at 227.838 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u/25V"
-			(at 232.664 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 232.41 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 232.41 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "830f1002-3917-422b-b2d0-7499a0a01dc1")
-		)
-		(pin "1"
-			(uuid "4943e571-de0b-4c69-bd81-5ad8f67dd6d2")
-		)
-		(instances
-			(project "ubs3_hub"
-				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 170.18 111.76 180)
 		(unit 1)
@@ -10634,6 +10770,76 @@
 			(project "ubs3_hub"
 				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 232.41 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28779e0d-96ef-4bb8-9966-50a2eb85df04")
+		(property "Reference" "C36"
+			(at 232.156 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 232.156 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 231.4448 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf0179d5-1306-4fc5-9748-04db59e844c3")
+		)
+		(pin "1"
+			(uuid "f27d4c6c-d3cc-4f03-a44a-3b9678aa2750")
+		)
+		(instances
+			(project "ubs3_hub"
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -12284,6 +12490,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 269.24 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fe5e708-7870-47aa-b884-521f79522027")
+		(property "Reference" "#PWR047"
+			(at 269.24 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cbdbf22-2cc1-40b0-b516-3f23f5aeccb5")
+		)
+		(instances
+			(project "ubs3_hub"
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 104.14 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12483,6 +12755,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 266.7 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "529535a9-eb6a-417a-a731-4629814c1e4c")
+		(property "Reference" "H3"
+			(at 265.938 251.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 269.24 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 266.7 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 266.7 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f4ae56d-8f38-456a-a3ea-4266726dddcc")
+		)
+		(instances
+			(project "ubs3_hub"
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 251.46 0)
 		(unit 1)
@@ -12610,6 +12949,76 @@
 			(project "ubs3_hub"
 				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.68 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56ddedf8-0164-4b4a-b30b-7fcd370b090f")
+		(property "Reference" "C15"
+			(at 233.426 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 233.426 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 232.7148 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acdc80c8-bc6d-42b1-930d-60fe60cc7eba")
+		)
+		(pin "1"
+			(uuid "50c5f4ce-6eeb-4c65-96aa-dc540941856d")
+		)
+		(instances
+			(project "ubs3_hub"
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -12878,75 +13287,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 330.2 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60169cb1-e184-438f-8531-ae9b73f9ba6e")
-		(property "Reference" "C19"
-			(at 325.628 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u/25V"
-			(at 330.454 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 330.2 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 330.2 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 330.2 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17cfb004-6386-4d6e-9e83-e334a7791533")
-		)
-		(pin "1"
-			(uuid "a9a72ad6-4e49-449a-ac90-d29a157401f8")
-		)
-		(instances
-			(project "ubs3_hub"
-				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 285.75 30.48 0)
 		(unit 1)
@@ -13006,75 +13346,6 @@
 			(project "ubs3_hub"
 				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 328.93 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65c2457d-df0e-4229-a130-c677295e3de5")
-		(property "Reference" "C17"
-			(at 324.358 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u/25V"
-			(at 329.184 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 328.93 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 328.93 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 328.93 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2bbef3b8-2813-4849-a24c-04aeb738f61b")
-		)
-		(pin "1"
-			(uuid "eae3c445-c4c2-4a94-a885-03f1fa4c1513")
-		)
-		(instances
-			(project "ubs3_hub"
-				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13342,6 +13613,73 @@
 			(project ""
 				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 261.62 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "712bd58e-c2c8-4607-98f6-f92fd7f87623")
+		(property "Reference" "H4"
+			(at 260.858 251.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 264.16 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 261.62 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 261.62 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5247166e-9d24-4091-9c12-16ca8a48a38b")
+		)
+		(instances
+			(project "ubs3_hub"
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -13791,6 +14129,73 @@
 			(project "ubs3_hub"
 				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 276.86 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "81b0a50d-f17b-4e96-a8cf-521430e72b62")
+		(property "Reference" "H1"
+			(at 276.098 251.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 279.4 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 276.86 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 276.86 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b195bcb-565e-49f9-8c85-665f19d397d4")
+		)
+		(instances
+			(project ""
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -15707,6 +16112,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 330.2 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba2ee2dd-103e-4236-82e7-b28a6e05537e")
+		(property "Reference" "C18"
+			(at 329.946 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 329.946 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 329.2348 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 330.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5968a3b2-703e-42ff-8e32-8dde946b7097")
+		)
+		(pin "1"
+			(uuid "0490ad9d-f891-40f1-ad98-8d872b753186")
+		)
+		(instances
+			(project "ubs3_hub"
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 355.6 200.66 0)
 		(unit 1)
@@ -16027,7 +16502,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8032df7-928f-4e1c-89fd-df5c2b43f733")
+			(uuid "b8032df7-928f-4e1c-89fd-df5c2b43f734")
 		)
 		(instances
 			(project "ubs3_hub"
@@ -16241,6 +16716,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 271.78 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6bce666-b3ab-47b2-9591-af00b03b2320")
+		(property "Reference" "H2"
+			(at 271.018 251.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 274.32 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 271.78 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 271.78 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6afee7c6-3993-41f1-9238-37837b9e1d8f")
+		)
+		(instances
+			(project "ubs3_hub"
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V2")
 		(at 60.96 147.32 0)
 		(mirror y)
@@ -16301,75 +16843,6 @@
 			(project "ubs3_hub"
 				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 233.68 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8d85dec-3e04-4b61-b1ed-a3a9007b9de4")
-		(property "Reference" "C15"
-			(at 229.108 25.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u/25V"
-			(at 233.934 25.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 233.68 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 233.68 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c026b010-449b-4885-aa83-f2a778976f21")
-		)
-		(pin "1"
-			(uuid "eda0aa9d-a279-4812-8153-36001ef21837")
-		)
-		(instances
-			(project "ubs3_hub"
-				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -16509,6 +16982,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 328.93 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e177de3e-500a-4106-9737-1dbb3e38992d")
+		(property "Reference" "C17"
+			(at 328.676 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 328.676 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 327.9648 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 328.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f51f0ac0-6c72-49a6-b534-f25d0e2dae70")
+		)
+		(pin "1"
+			(uuid "2639dd85-c113-41c1-b221-56a52466a696")
+		)
+		(instances
+			(project "ubs3_hub"
+				(path "/84935427-d34a-4a45-9beb-e0c55146e834"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 163.83 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16628,7 +17171,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8032df7-928f-4e1c-89fd-df5c2b43f733")
+			(uuid "b8032df7-928f-4e1c-89fd-df5c2b43f735")
 		)
 		(instances
 			(project "ubs3_hub"
