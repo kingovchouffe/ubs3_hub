@@ -8671,7 +8671,7 @@
 		(uuid "0b8c4a55-7024-4c27-8270-c8f7d1f9e0fd")
 	)
 	(label "P1_SS_TXC_N"
-		(at 160.02 182.88 180)
+		(at 160.02 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8681,7 +8681,7 @@
 		(uuid "0d2d7486-0b5d-4897-b600-97b6d1c3bd15")
 	)
 	(label "P1C_SS_RX_P"
-		(at 163.83 196.85 180)
+		(at 163.83 199.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8721,7 +8721,7 @@
 		(uuid "1ab33d72-8402-48c7-b8c6-e0868fca6cac")
 	)
 	(label "P4_SS_RX_P"
-		(at 49.53 158.75 0)
+		(at 49.53 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8731,7 +8731,7 @@
 		(uuid "1af05a86-f90d-4c24-a6f3-133abd3d7d4e")
 	)
 	(label "P4_SS_TX_P"
-		(at 24.13 153.67 0)
+		(at 24.13 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8761,7 +8761,7 @@
 		(uuid "26639adb-b947-498e-b7cb-8de801d099c3")
 	)
 	(label "P1C_SS_RX_N"
-		(at 163.83 199.39 180)
+		(at 163.83 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8871,7 +8871,7 @@
 		(uuid "3bc65a95-dd80-4bac-a412-2650cba9dc74")
 	)
 	(label "P3_SS_RX_N"
-		(at 162.56 252.73 180)
+		(at 162.56 250.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8901,7 +8901,7 @@
 		(uuid "42ebb7d8-a83c-4b84-9ba0-e4e8e642d70f")
 	)
 	(label "P3_SS_RX_P"
-		(at 162.56 250.19 180)
+		(at 162.56 252.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8921,7 +8921,7 @@
 		(uuid "43bd0c1a-6c16-42db-b069-d4e2a88db7d4")
 	)
 	(label "P2_SS_TX_P"
-		(at 187.96 218.44 180)
+		(at 187.96 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8931,7 +8931,7 @@
 		(uuid "446baa54-35b3-4602-a5a2-32a68cc363c1")
 	)
 	(label "P3_SS_TX_P"
-		(at 187.96 245.11 180)
+		(at 187.96 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8951,7 +8951,7 @@
 		(uuid "462e8b5a-f837-4c8b-ab25-a95685a58d81")
 	)
 	(label "UPC_SS_TX_N"
-		(at 189.23 153.67 180)
+		(at 189.23 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8961,7 +8961,7 @@
 		(uuid "494ebb1a-5281-4d2f-b040-3129a37d11ff")
 	)
 	(label "P4_SS_TXC_N"
-		(at 63.5 156.21 180)
+		(at 63.5 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9001,7 +9001,7 @@
 		(uuid "4a533d02-c22e-4984-98b9-8e9c12a88729")
 	)
 	(label "P2_SS_TX_N"
-		(at 187.96 220.98 180)
+		(at 187.96 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9041,7 +9041,7 @@
 		(uuid "53cb8208-cd36-4cb0-b113-4e3e243dbe44")
 	)
 	(label "P1_SS_TX_N"
-		(at 187.96 182.88 180)
+		(at 187.96 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9061,7 +9061,7 @@
 		(uuid "5dba2c93-dc0f-40c0-9407-88a613e288df")
 	)
 	(label "UPC_SS_TXC_N"
-		(at 161.29 153.67 180)
+		(at 161.29 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9151,7 +9151,7 @@
 		(uuid "704b8067-f25c-4b2e-90c7-6b69a32f0612")
 	)
 	(label "P1_SS_TX_P"
-		(at 187.96 180.34 180)
+		(at 187.96 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9171,7 +9171,7 @@
 		(uuid "714e33c2-3c0f-4c92-ade3-9afd06533bfc")
 	)
 	(label "P1_SS_TXC_P"
-		(at 160.02 180.34 180)
+		(at 160.02 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9201,7 +9201,7 @@
 		(uuid "7debd162-9d5a-4be2-894f-f57c7bd818b5")
 	)
 	(label "P2_SS_TXC_P"
-		(at 160.02 218.44 180)
+		(at 160.02 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9231,7 +9231,7 @@
 		(uuid "8264ef21-f5c7-4af1-98bb-325e064d3efd")
 	)
 	(label "P3_SS_TX_N"
-		(at 187.96 247.65 180)
+		(at 187.96 245.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9241,7 +9241,7 @@
 		(uuid "862ea4eb-a0c3-4137-8853-1279361d23e4")
 	)
 	(label "P3_SS_TXC_P"
-		(at 160.02 245.11 180)
+		(at 160.02 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9341,7 +9341,7 @@
 		(uuid "9c714bf2-717e-4984-a891-97f99f8222e4")
 	)
 	(label "UPC_SS_TX_P"
-		(at 189.23 151.13 180)
+		(at 189.23 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9371,7 +9371,7 @@
 		(uuid "a3149adc-1716-49a4-9318-1561996ccb0f")
 	)
 	(label "UP_SS_RX_P"
-		(at 163.83 144.78 180)
+		(at 163.83 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9391,7 +9391,7 @@
 		(uuid "a48cda56-3b94-4ec2-8d27-a78a262837f6")
 	)
 	(label "P4_SS_TX_N"
-		(at 24.13 156.21 0)
+		(at 24.13 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9451,7 +9451,7 @@
 		(uuid "aff9a862-e432-4bf9-8aa7-db56b58ca16c")
 	)
 	(label "UP_SS_RX_N"
-		(at 163.83 147.32 180)
+		(at 163.83 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9491,7 +9491,7 @@
 		(uuid "b8b720fd-247a-4911-8748-f7f3f7e309f2")
 	)
 	(label "UPC_SS_TXC_P"
-		(at 161.29 151.13 180)
+		(at 161.29 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9551,7 +9551,7 @@
 		(uuid "c87ed29c-d763-4561-a801-15836d96bfe3")
 	)
 	(label "P4_SS_TXC_P"
-		(at 63.5 153.67 180)
+		(at 63.5 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9681,7 +9681,7 @@
 		(uuid "ef933a51-c7e4-4760-9789-68abac62d3ed")
 	)
 	(label "P3_SS_TXC_N"
-		(at 160.02 247.65 180)
+		(at 160.02 245.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9731,7 +9731,7 @@
 		(uuid "f328b160-b563-426c-b239-f5672fb9d6ce")
 	)
 	(label "P4_SS_RX_N"
-		(at 49.53 161.29 0)
+		(at 49.53 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9741,7 +9741,7 @@
 		(uuid "f7a69ecf-de1d-4591-add7-735663b0285a")
 	)
 	(label "P2_SS_TXC_N"
-		(at 160.02 220.98 180)
+		(at 160.02 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
